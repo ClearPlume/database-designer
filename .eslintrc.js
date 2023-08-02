@@ -3,16 +3,22 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {
     // A temporary hack related to IDE not resolving correct package.json
-    'import/no-extraneous-dependencies': 'off',
     'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': 'off',
+    'react/jsx-curly-brace-presence': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/jsx-boolean-value': 'off',
+    'react/function-component-definition': 'off',
+
+    'import/no-extraneous-dependencies': 'off',
     'import/extensions': 'off',
     'import/no-unresolved': 'off',
     'import/no-import-module-exports': 'off',
-    'no-shadow': 'off',
+
     '@typescript-eslint/no-shadow': 'error',
-    'no-unused-vars': 'off',
     '@typescript-eslint/no-unused-vars': 'error',
+    'no-console': 'off',
+    'no-unused-vars': 'off',
   },
   parserOptions: {
     ecmaVersion: 2020,

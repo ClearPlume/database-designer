@@ -74,7 +74,8 @@
 
 - Migrate to TypeScript from Flow ([#2363](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/2363))
 - Use browserslist for `@babel/preset-env` targets ([#2368](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/2368))
-- Use preload script, disable `nodeIntegration` in renderer process for [improved security](https://www.electronjs.org/docs/tutorial/security#2-do-not-enable-nodejs-integration-for-remote-content) ([#2365](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/2365))
+- Use preload script, disable `nodeIntegration` in renderer process
+  for [improved security](https://www.electronjs.org/docs/tutorial/security#2-do-not-enable-nodejs-integration-for-remote-content) ([#2365](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/2365))
 - Add support for azure pipelines ([#2369](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/2369))
 - Disable sourcemaps in production
 
@@ -197,7 +198,8 @@ Yay! Another patch release. This release mostly includes refactorings and router
 
 #### Fixes
 
-- **Fixed reloading when not on `/` path:** [#958](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/958) [#949](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/949)
+- **Fixed reloading when not on `/` path:
+  ** [#958](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/958) [#949](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/949)
 
 #### Additions
 
@@ -263,7 +265,8 @@ Here's the most notable changes since `v0.10.0`. Its been about a year since a r
 
 #### Bug Fixes
 
-- **Fixed hot module replacement race condition bug:** [#917](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/917) [#920](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/920)
+- **Fixed hot module replacement race condition bug:
+  ** [#917](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/917) [#920](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/920)
 
 # 0.10.0 (2016.4.18)
 
@@ -315,7 +318,8 @@ Here's the most notable changes since `v0.10.0`. Its been about a year since a r
 #### Bug fixed
 
 - **Fixed npm script on windows 10:** [#103](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/103).
-- **history and react-router version bump**: [#109](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/109), [#110](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/110).
+- **history and react-router version bump
+  **: [#109](https://github.com/electron-react-boilerplate/electron-react-boilerplate/issues/109), [#110](https://github.com/electron-react-boilerplate/electron-react-boilerplate/pull/110).
 
 #### Improvements
 
