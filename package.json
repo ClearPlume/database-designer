@@ -1,4 +1,5 @@
 {
+  "name": "database-designer",
   "description": "A foundation for scalable desktop apps",
   "keywords": [
     "electron",
@@ -9,7 +10,9 @@
     "sass",
     "webpack",
     "hot",
-    "reload"
+    "reload",
+    "database",
+    "designer"
   ],
   "homepage": "https://github.com/electron-react-boilerplate/electron-react-boilerplate#readme",
   "bugs": {
@@ -178,8 +181,8 @@
     "webpack-merge": "^5.9.0"
   },
   "build": {
-    "productName": "ElectronReact",
-    "appId": "org.erb.ElectronReact",
+    "productName": "DatabaseDesigner",
+    "appId": "net.fallingangel.DatabaseDesigner",
     "asar": true,
     "asarUnpack": "**\\*.{node,dll}",
     "files": [
